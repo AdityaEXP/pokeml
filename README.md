@@ -1,4 +1,4 @@
-# 🧠 Who is that Pokémon? - Image classifier
+# 🧠 Who is that PokeML? - Image classifier
 
 > A deep learning model that classifies Pokémon images using transfers learning with Mobilenetv2 + Keras. Using its own custom-related model predicts more than 150 Pokémon from files or URLs.
 
