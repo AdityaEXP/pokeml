@@ -9,6 +9,8 @@ The project trains an image classifier that can identify 150+ Pokémon character
 
 Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and **Early stopping** for best performance.
 
+**Test Dataset to train model to identify pokemon: https://www.kaggle.com/datasets/lantian773030/pokemonclassification**
+
 
 ## 🚀 features
 
