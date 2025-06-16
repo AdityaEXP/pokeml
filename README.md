@@ -16,20 +16,23 @@ Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and
 - 🎨 data growth (rotation, zoom, flips)
 - 🧠 fine tuning for high accuracy
 - 🔁 Erustoping + Model Czechpointing
-- Predic from 🌐 ** image url or local file **
+- Predic from 🌐 **image url or local file**
 - 📁 saved model + class label
 - 🧪 60%+ verification accuracy on 150 classes
 
 
 ## 📁 directory structure
 pokemon-classifier/
-├── data/ # Pokémon images (organized by class)
-├── model/ # Saved model + class index map
-│ ├── pokemon_classifier.h5
-│ └── class_indices.json
-├── main.py # Training script
-├── search.py # Prediction from image or URL
-├── README.md
+├── data/                    # Pokémon images (organized by class folders)
+│   ├── pikachu/
+│   ├── charmander/
+│   └── ...
+├── model/                   # Saved model and class index map
+│   ├── pokemon_classifier.h5
+│   └── class_indices.json
+├── main.py                  # Training script (uses transfer learning with MobileNetV2)
+├── search.py                # Prediction script (predicts from image URL or file)
+├── README.md 
 
 ## 🧪 Model Info
 
