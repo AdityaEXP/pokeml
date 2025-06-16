@@ -21,7 +21,7 @@ Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and
 - 🧪 60%+ verification accuracy on 150 classes
 
 
-<details> <summary>📁 <strong>Directory Structure</strong></summary>
+##📁Directory Structure
   ```
 pokemon-classifier/
 ├── data/                    # Pokémon images (organized by class folders)
@@ -35,7 +35,7 @@ pokemon-classifier/
 ├── search.py                # Prediction script (predicts from image URL or file)
 ├── README.md                # Project documentation (this file)
   ```
-</details>
+
 
 ## 🧪 Model Info
 
