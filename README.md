@@ -21,7 +21,7 @@ Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and
 - 🧪 60%+ verification accuracy on 150 classes
 
 
-##📁Directory Structure
+## 📁Directory Structure
   ```
 pokemon-classifier/
 ├── data/                    # Pokémon images (organized by class folders)
@@ -72,7 +72,7 @@ Class mappings saved to model/class_indices.json
 ```python search.py```
 
 
-##🙌 Credits
+## 🙌 Credits
 🧩 Pretrained model: MobileNetV2
 🎨 Dataset: PokeAPI sprites
 🛠 Frameworks: TensorFlow, Keras, Pillow, NumPy
