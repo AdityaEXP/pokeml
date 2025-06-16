@@ -5,9 +5,9 @@
 
 ## 📦 Project Overview
 
-The project trains an image classifier that can identify 150+ Pokémon characters from images. It uses ** Mobilenetv2 ** as a pretrand base and adds a custom head for Pokémon classification.
+The project trains an image classifier that can identify 150+ Pokémon characters from images. It uses **Mobilenetv2** as a pretrand base and adds a custom head for Pokémon classification.
 
-Trained using ** tensorflow + keras **, ** with data growth **, ** fine-tuning **, and ** Early stopping ** for best performance.
+Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and **Early stopping** for best performance.
 
 
 ## 🚀 features
