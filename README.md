@@ -22,6 +22,7 @@ Trained using **tensorflow + keras**, **with data growth**, **fine-tuning**, and
 
 
 <details> <summary>📁 <strong>Directory Structure</strong></summary>
+  ```
 pokemon-classifier/
 ├── data/                    # Pokémon images (organized by class folders)
 │   ├── pikachu/
@@ -33,6 +34,7 @@ pokemon-classifier/
 ├── main.py                  # Training script (uses transfer learning with MobileNetV2)
 ├── search.py                # Prediction script (predicts from image URL or file)
 ├── README.md                # Project documentation (this file)
+  ```
 </details>
 
 ## 🧪 Model Info
@@ -50,11 +52,13 @@ pokemon-classifier/
 ### 🔧 1. Train the Model
 
 Make sure your Pokémon images are inside `data/` and organized like:
+```
 data/
 ├── bulbasaur/
 ├── charmander/
 ├── pikachu/
 ....
+```
 
 
 Then run:
@@ -67,10 +71,10 @@ Class mappings saved to model/class_indices.json
 ### 🔍 2. Predict Pokémon from Image URL
 ```python search.py```
 
+
 ##🙌 Credits
 🧩 Pretrained model: MobileNetV2
 🎨 Dataset: PokeAPI sprites
 🛠 Frameworks: TensorFlow, Keras, Pillow, NumPy
 
 
-1
