@@ -2,9 +2,6 @@
 
 > A deep learning model that classifies Pokémon images using transfers learning with Mobilenetv2 + Keras. Using its own custom-related model predicts more than 150 Pokémon from files or URLs.
 
-,
-
-,
 
 ## 📦 Project Overview
 
@@ -12,7 +9,6 @@ The project trains an image classifier that can identify 150+ Pokémon character
 
 Trained using ** tensorflow + keras **, ** with data growth **, ** fine-tuning **, and ** Early stopping ** for best performance.
 
-,
 
 ## 🚀 features
 
@@ -24,7 +20,6 @@ Trained using ** tensorflow + keras **, ** with data growth **, ** fine-tuning *
 - 📁 saved model + class label
 - 🧪 60%+ verification accuracy on 150 classes
 
-,
 
 ## 📁 directory structure
 pokemon-classifier/
